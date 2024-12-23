@@ -20,4 +20,8 @@ header{
     position: fixed;
 }
 
- 
+ .logo {
+    width: 30%;
+    float:left;
+    text-align: left;
+ }
