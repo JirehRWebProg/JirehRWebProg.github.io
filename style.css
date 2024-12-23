@@ -28,10 +28,11 @@ header{
 }
 
  .logo {
-    width: 100%;
-    height:auto;
+    width: 30%;
+    float: left;
+    text-align: left;
  }
- 
+
 .nav{
     display: flex;
     align-items: center;
