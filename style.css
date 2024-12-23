@@ -15,13 +15,13 @@ body{
 
 header{
     width: 100%;
-    height: 200px;
+    height: 300px;
     background: #4B6F44;
     position: fixed;
 }
 
  .logo {
-    width: 20%;
+    width: 30%;
     float:left;
     text-align: left;
  }
