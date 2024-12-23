@@ -21,7 +21,7 @@ header{
 }
 
  .logo {
-    width: 30%;
+    width: 20%;
     float:left;
     text-align: left;
  }
@@ -42,12 +42,11 @@ header{
 
 .tagline {
     text-align: center;
+    font-family: cursive;
     line-height: 100px;
 }
 
 .tagline a{
-    padding: 36px 10px;
-    margin: 0 1px;
     color:white;
     letter-spacing: 4px;
     text-decoration: none;
