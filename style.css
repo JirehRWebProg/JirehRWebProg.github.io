@@ -27,7 +27,8 @@ header{
  }
 .nav{
     float:right;
-    line-height: 100px;
+    display: flex;
+    height: 100%;
 }
 
 .nav a{
