@@ -21,13 +21,16 @@ header{
 }
 
  .logo {
-    width: 30%;
+    width: 100%;
+    height:auto;
     float:left;
     text-align: left;
  }
 .nav{
     float:right;
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     height: 100%;
 }
 
@@ -68,7 +71,6 @@ header{
     position:absolute;
     top:0;
     left:0;
-    display:block;
     width: 100px;
     height:100%;
     z-index: -1;
