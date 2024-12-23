@@ -41,7 +41,12 @@ header{
     margin: 0 1px;
 }
 
-.tagline {
+.nav a:hover {
+    color: black;
+    background: #fff;
+}
+
+/* .tagline {
     text-align: center;
     font-family: cursive;
     line-height: 100px;
@@ -52,7 +57,7 @@ header{
     color:white;
     letter-spacing: 4px;
     text-decoration: none;
-}
+} */
  .banner-area {
     background-image: url(images/banner.png);
     background-size: cover;
