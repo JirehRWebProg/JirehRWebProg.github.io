@@ -9,35 +9,26 @@ body{
 }
 
 .wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 90%;
     margin: 0 auto;
-    height: 100%;
 }
 
 header{
     width: 100%;
-    height: 300px;
+    height: 400px;
     background: #4B6F44;
     position: fixed;
-    z-index: 100;
-    display: flex;
-    align-items: center;
 }
 
  .logo {
     width: 30%;
-    float: left;
+    float:left;
     text-align: left;
  }
-
 .nav{
+    float:right;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 15px;
+    height: 100%;
 }
 
 .nav a{
@@ -46,22 +37,15 @@ header{
     letter-spacing: 4px;
     font-size: 20px;
     color:white;
-    padding: 10px 15px;
+    padding: 36px 10px;
     margin: 0 1px;
 }
 
-.nav a:hover {
-    color:black;
-    background:white;
-}
-
 .tagline {
-    flex-grow: 1;
     text-align: center;
     font-family: cursive;
+    line-height: 100px;
     color: white;
-    font-size: 1.5rem;
-    line-height: 1.2;
 }
 
 .tagline a{
@@ -84,6 +68,7 @@ header{
     position:absolute;
     top:0;
     left:0;
+    display:block;
     width: 100px;
     height:100%;
     z-index: -1;
